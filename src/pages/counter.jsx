@@ -1,15 +1,19 @@
 import React from 'react';
+import { useState } from 'react';
 function Counter() {
-  const [count, setCount] = React.useState(1);
-  const increment = () => {
-    setCount(count + 1);
+  let test = 1;
+  const updateTest = (testVal) => {
+    console.log(testVal);
+    test = testval;
   };
+  const [count, setCount] = useState(0);
   return (
     <div>
-      <div>
-        <h1>Counter</h1>
-        <button>-</button>0<button onClick={() => increment()}>+</button>
-      </div>
+      <h1>Counter</h1>
+
+      <button onClick={() => setCount(count - 1)}> - </button>
+      <label>{count}</label>
+      <button onClick={() => setCount(count + 1)}>+</button>
     </div>
   );
 }
