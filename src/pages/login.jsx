@@ -4,7 +4,9 @@ function Login() {
     <div>
       <div>
         <h1>Login Page</h1>
-        <label htmlfor="username">username</label>
+        <label htmlfor="username">
+          <i class="fa-solid fa-user"></i>username
+        </label>
         <input type="text" />
         <br />
         <br />

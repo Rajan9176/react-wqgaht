@@ -8,8 +8,9 @@ export default function App() {
   return (
     <div>
       <Chat />
+      <Login />
       {/* <Signup />
-       <Login/> 
+        
         <Counter />  */}
 
       <h1>Hellotttt StackBleeitz!</h1>
