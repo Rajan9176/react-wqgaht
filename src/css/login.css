@@ -1,0 +1,25 @@
+.mr {
+  background-color: rgba(240, 128, 128);
+}
+.rajan {
+  text-align: center;
+  background-color: rgba(215, 250, 247, 0.25);
+  width: 35%;
+
+  margin-left: 35%;
+  margin-top: 16%;
+  border-radius: 20px;
+}
+.input {
+  padding-top: 1%;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.raj {
+  color: blueviolet;
+  padding-bottom: 1%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  margin: 2px;
+  border-radius: 5px;
+}

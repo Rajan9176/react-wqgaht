@@ -1,19 +1,19 @@
 import React from 'react';
 function Login() {
   return (
-    <div>
-      <div>
-        <h1>Login Page</h1>
+    <div className="div">
+      <div className="rajan">
+        <h1 className="mr">Login Page</h1>
         <label htmlfor="username">
-          <i class="fa-solid fa-user"></i>username
+          <i className="fa-solid fa-user"></i>username
         </label>
-        <input type="text" />
+        <input type="text"className="input" />
         <br />
         <br />
         <label htmlfor="password">password</label>
-        <input type="password" />
+        <input type="password" className="input"/>
         <br />
-        <br /> <button>login</button>
+        <br /> <button className="raj">login</button>
       </div>
     </div>
   );

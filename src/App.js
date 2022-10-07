@@ -8,17 +8,17 @@ import EmployeeCard from './pages/employee';
 export default function App() {
   return (
     <div>
-      
-      
-      <EmployeeCard/>
+      <Login />
+
       {/* <Signup />
       <Chat />
-      <Login />
+      
+      <EmployeeCard/>
         
         <Counter />  */}
 
-      <h1>Hellotttt StackBleeitz!</h1>
-      <p>Start gfggfediting to see rajan some magic happen :)</p>
+      {/* <h1>Hellotttt StackBleeitz!</h1>
+      <p>Start gfggfediting to see rajan some magic happen :)</p> */}
     </div>
   );
 }
