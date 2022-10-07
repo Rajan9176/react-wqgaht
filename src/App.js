@@ -4,12 +4,16 @@ import Signup from './pages/signup';
 import Login from './pages/login';
 import Counter from './pages/counter';
 import Chat from './pages/chat';
+import EmployeeCard from './pages/employee';
 export default function App() {
   return (
     <div>
+      
+      
+      <EmployeeCard/>
+      {/* <Signup />
       <Chat />
       <Login />
-      {/* <Signup />
         
         <Counter />  */}
 
