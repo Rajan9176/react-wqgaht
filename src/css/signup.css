@@ -1,0 +1,24 @@
+.mani{
+  text-align: center;
+  padding: 3%;
+  margin-left: 35%;
+  margin-top: 10%;
+  border: 2px solid black;
+  width: 300px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  background-color: rgba(0, 255, 255, 0.2);
+}
+.raj {
+    margin-bottom: 100px;
+}
+
+.rajan {
+  border-radius: 5px;
+  font-size: large;
+}
+
+.ra {
+  font-size: large;
+  border-radius: 5px;
+}

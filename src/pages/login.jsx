@@ -7,7 +7,7 @@ function Login() {
         <label htmlfor="username">
           <i className="fa-solid fa-user"></i>username
         </label>
-        <input type="text"className="input" />
+        <input type="text"className="input"/>
         <br />
         <br />
         <label htmlfor="password">password</label>

@@ -8,12 +8,13 @@ import EmployeeCard from './pages/employee';
 export default function App() {
   return (
     <div>
-      <Login />
-
-      {/* <Signup />
+      
+      <Signup />
+      {/* 
       <Chat />
       
       <EmployeeCard/>
+      <Login />
         
         <Counter />  */}
 
