@@ -1,0 +1,18 @@
+nav {
+  background-color: black;
+}
+nav li {
+  display: inline-block;
+  padding: 6px;
+  
+}
+nav a{
+  padding: 6px;
+  color: white;
+  text-decoration:none;
+  
+}
+nav ul{
+  margin-top: 0;
+  
+}
