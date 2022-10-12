@@ -3,7 +3,7 @@ import '../css/calculator.css';
 function Calculator() {
   return (
     <div className="rajan">
-      <h1 className="raj">Calculator</h1>
+      <h1>Calculator</h1>
       <input type="text" />
       <br />
       <button className="button">7</button>
