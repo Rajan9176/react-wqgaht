@@ -2,11 +2,11 @@ import React from 'react';
 import '../css/login.css';
 function Login() {
   return (
-    <div className="div">
+    
       <div className="ram">
         <h1 className="mr">Login Page</h1>
         <label htmlfor="username">
-          <i className="fa-solid fa-user"></i>username
+          <i class="fa-solid fa-user"></i>username
         </label>
         <input type="text"className="input"/>
         <br />
@@ -16,7 +16,7 @@ function Login() {
         <br />
         <br /> <button className="raj">login</button>
       </div>
-    </div>
+    
   );
 }
 export default Login;
