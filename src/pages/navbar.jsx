@@ -8,6 +8,7 @@ function Navbar() {
     <li> <a href="/signup">Signup</a></li>
     <li> <a href="/counter">Counter</a></li>
     <li> <a href="/employeecard">EmployeeCard</a></li>
+    <li> <a href="/chat">Chat</a></li>
 
 
   </ul>
