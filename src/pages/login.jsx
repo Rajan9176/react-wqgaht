@@ -2,7 +2,7 @@ import React from 'react';
 function Login() {
   return (
     <div className="div">
-      <div className="rajan">
+      <div className="ram">
         <h1 className="mr">Login Page</h1>
         <label htmlfor="username">
           <i className="fa-solid fa-user"></i>username

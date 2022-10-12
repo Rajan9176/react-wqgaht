@@ -1,21 +1,24 @@
 import React from 'react';
 function Signup() {
   return (
-    
-    <div className="mani">
-        <h1 className="raj">Sign Up Now</h1>
-       
-        <form className="rajan">
-          <label className="rajan">
-          <input type="User Name"placeholder="User Name"/><br/><br/>
-          <input type="Email"  placeholder="YouEmail" /> <br/><br/>
-          <input type="Password" placeholder="Password" /><br/> <br/>
-           <input type="Password"placeholder="Re-Password"/></label>
+    <div className="div">
+      <h1 className="title">Sign Up Now</h1>
+
+      <form className="form">
+        <label className="lable">
+          <input type="User Name" placeholder="User Name" />
           <br />
           <br />
-          <button className="ra">Sign</button>
-        </form>
-      
+          <input type="Email" placeholder="YouEmail" /> <br />
+          <br />
+          <input type="Password" placeholder="Password" />
+          <br /> <br />
+          <input type="Password" placeholder="Re-Password" />
+        </label>
+        <br />
+        <br />
+        <button className="ra">Sign</button>
+      </form>
     </div>
   );
 }
