@@ -3,10 +3,10 @@ import '../css/signup.css';
 function Signup() {
   return (
     <div className="div">
-      <h1 className="title">Sign Up Now</h1>
+      <h1>Sign Up Now</h1>
 
-      <form className="form">
-        <label className="lable">
+      <form>
+        <label>
           <input type="User Name" placeholder="User Name" />
           <br />
           <br />

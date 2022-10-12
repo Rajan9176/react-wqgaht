@@ -11,7 +11,7 @@ function Login() {
         <input type="text"className="input"/>
         <br />
         <br />
-        <label htmlfor="password">password</label>
+        <label htmlfor="password"><i class="fa-solid fa-lock"></i>password</label>
         <input type="password" className="input"/>
         <br />
         <br /> <button className="raj">login</button>
