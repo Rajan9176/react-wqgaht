@@ -5,6 +5,7 @@ import Login from './pages/login';
 import Counter from './pages/counter';
 import Chat from './pages/chat';
 import EmployeeCard from './pages/employee';
+import Calcultor from './pages/calculator';
 import Navbar from './pages/navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 export default function App() {
@@ -17,6 +18,8 @@ export default function App() {
         <Route path="counter" element={<Counter />} />
         <Route path="EmployeeCard" element={<EmployeeCard />} />
         <Route path="chat" element={<Chat/>} />
+        <Route path="calculator" element={<Calcultor/>} />
+
         
 
       </Routes>
