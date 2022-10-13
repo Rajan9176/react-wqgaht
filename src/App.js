@@ -8,6 +8,7 @@ import EmployeeCard from './pages/employee';
 import Calcultor from './pages/calculator';
 import Navbar from './pages/navbar';
 import Dummy from './pages/dummy';
+import Timer from './pages/timer';
 import ErrorPage from './pages/errorpage';
 import EmployeeDetails from './pages/employeedetails';
 import SimpleClass from './pages/simpleClass';
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="errorpage" element={<ErrorPage />} />
         <Route path="employeedetails" element={<EmployeeDetails />} />
         <Route path="simpleclass" element={<SimpleClass />} />
+        <Route path="timer" element={<Timer />} />
       </Routes>
       {/* <Login />
       <Signup /> */}
