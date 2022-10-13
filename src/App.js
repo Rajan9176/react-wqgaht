@@ -10,7 +10,8 @@ import Navbar from './pages/navbar';
 import Dummy from './pages/dummy';
 import ErrorPage from './pages/errorpage';
 import EmployeeDetails from './pages/employeedetails';
- 
+import SimpleClass from './pages/simpleClass';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 export default function App() {
   return (
@@ -21,17 +22,12 @@ export default function App() {
         <Route path="signup" element={<Signup />} />
         <Route path="counter" element={<Counter />} />
         <Route path="EmployeeCard" element={<EmployeeCard />} />
-        <Route path="chat" element={<Chat/>} />
-        <Route path="calculator" element={<Calcultor/>} />
-        <Route path="dummy" element={<Dummy/>} />
-        <Route path="errorpage" element={<ErrorPage/>} />
-  <Route path="employeedetails" element={<EmployeeDetails/>} />
-         
-
-
-
-        
-
+        <Route path="chat" element={<Chat />} />
+        <Route path="calculator" element={<Calcultor />} />
+        <Route path="dummy" element={<Dummy />} />
+        <Route path="errorpage" element={<ErrorPage />} />
+        <Route path="employeedetails" element={<EmployeeDetails />} />
+        <Route path="simpleclass" element={<SimpleClass />} />
       </Routes>
       {/* <Login />
       <Signup /> */}

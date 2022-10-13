@@ -14,6 +14,7 @@ function Navbar() {
     <li> <Link to="/errorpage"><i className="fa-solid fa-circle-exclamation"></i> ErrorPage</Link></li>
     <li> <Link to="/timer"><i className="fa-sharp fa-solid fa-clock"></i>Timer</Link></li>
     <li> <Link to="/employeedetails"><i className="fa-sharp fa-solid fa-address-card"></i> EmployeeDetails</Link></li>
+    <li> <Link to="/simpleclass"> SimpleClass</Link></li>
 
 
   </ul>
