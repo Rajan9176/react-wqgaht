@@ -6,7 +6,7 @@ class SimpleClass extends Component {
   }
   increment(){
     this.setState({count:this.state.count+1});
-    // this.state.count +=1;
+    // this.state.count +1
     // alert(this.state.count);
   }
   decrement(){
