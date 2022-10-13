@@ -9,6 +9,7 @@ import Calcultor from './pages/calculator';
 import Navbar from './pages/navbar';
 import Dummy from './pages/dummy';
 import ErrorPage from './pages/errorpage';
+import EmployeeDetails from './pages/employeedetails'; 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 export default function App() {
   return (
@@ -23,6 +24,8 @@ export default function App() {
         <Route path="calculator" element={<Calcultor/>} />
         <Route path="dummy" element={<Dummy/>} />
         <Route path="errorpage" element={<ErrorPage/>} />
+         <Route path="employeedetails" element={<EmployeeDetails/>} />
+
 
 
         

@@ -10,9 +10,10 @@ function Navbar() {
     <li> <Link to="/counter"><i class="fa-solid fa-earth-africa"></i> Counter</Link></li>
     <li> <Link to="/employeecard"><i class="fa-solid fa-id-card"></i>EmployeeCard</Link></li>
     <li> <Link to="/chat"><i class="fa-solid fa-comment"></i> Chat</Link></li>
-    <li> <Link to="/calculator"><i class="fa-solid fa-calculator"></i>Calculator</Link></li>
-    <li> <Link to="/errorpage">ErrorPage</Link></li>
-    <li> <Link to="/timer">Timer</Link></li>
+    <li> <Link to="/calculator"><i class="fa-solid fa-calculator"></i> Calculator</Link></li>
+    <li> <Link to="/errorpage"><i class="fa-sharp fa-solid fa-timer"></i>ErrorPage</Link></li>
+    <li> <Link to="/timer"><i class="fa-sharp fa-solid fa-timer"></i><i class="fa-sharp fa-solid fa-timer"></i>Timer</Link></li>
+    <li> <Link to="/employeedetails"><i class="fa-sharp fa-solid fa-address-card"></i> EmployeeDetails</Link></li>
 
 
   </ul>
