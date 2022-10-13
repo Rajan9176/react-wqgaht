@@ -7,14 +7,14 @@ function Signup() {
 
       <form>
         <label>
-          <input type="User Name" placeholder="User Name" />
+        <i class="fa-solid fa-user"></i> <input type="User Name" placeholder="User Name" />
           <br />
           <br />
-          <input type="Email" placeholder="YouEmail" /> <br />
+          <i class="fa-solid fa-envelope"></i> <input type="Email" placeholder="YouEmail" /> <br />
           <br />
-          <input type="Password" placeholder="Password" />
+          <i class="fa-solid fa-lock"></i> <input type="Password" placeholder="Password" />
           <br /> <br />
-          <input type="Password" placeholder="Re-Password" />
+          <i class="fa-solid fa-unlock"></i> <input type="Password" placeholder="Re-Password" />
         </label>
         <br />
         <br />
