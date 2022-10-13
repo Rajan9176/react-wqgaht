@@ -7,6 +7,7 @@ import Chat from './pages/chat';
 import EmployeeCard from './pages/employee';
 import Calcultor from './pages/calculator';
 import Navbar from './pages/navbar';
+import Dummy from './pages/dummy';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 export default function App() {
   return (
@@ -19,6 +20,8 @@ export default function App() {
         <Route path="EmployeeCard" element={<EmployeeCard />} />
         <Route path="chat" element={<Chat/>} />
         <Route path="calculator" element={<Calcultor/>} />
+        <Route path="dummy" element={<Dummy/>} />
+
 
         
 
