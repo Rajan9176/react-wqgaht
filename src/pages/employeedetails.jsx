@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/employeedetails.css';
-import image from './card.jpg';
+import image from './bus.jpg';
 function EmployeeDetails() {
   return (
     <div className="employee1">
