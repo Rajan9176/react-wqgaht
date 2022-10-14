@@ -13,7 +13,7 @@ function ErrorPage() {
           changed or is temporarily unavailable{' '}
         </p>
       </h3>
-      <button className="button">GO TO HOMEPAGE</button>
+      <button className="error">GO TO HOMEPAGE</button>
     </div>
   );
 }
