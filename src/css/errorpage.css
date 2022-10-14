@@ -1,22 +1,26 @@
 .oops {
-  text-align: center;
+  /* text-align: center; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgb(109, 4, 4);
 }
 .para1 {
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* text-align: center; */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 .paras {
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* text-align: center; */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 .error {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   text-align: center;
   border-radius: 5px;
   border-color: #0693e3;
-  /* margin-left: 45%; */
+  margin: auto;
   color: white;
   background-color: #0693e3;
+}
+.errorPage {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
