@@ -1,0 +1,20 @@
+.employee1 {
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 250px;
+  background-color: aqua;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times;
+}
+
+.employee2 {
+  margin-left: -110px;
+  font-weight: bold;
+}
+
+.idcard {
+  text-align: end;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
