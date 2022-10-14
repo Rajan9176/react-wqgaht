@@ -16,6 +16,8 @@ function Navbar() {
     <li> <Link to="/employeedetails"><i className="fa-sharp fa-solid fa-address-card"></i> EmployeeDetails</Link></li>
     <li> <Link to="/simpleclass"><i class="fa-solid fa-landmark"></i> SimpleClass</Link></li>
     <li> <Link to="/dummy"><i class="fa-solid fa-circle-xmark"></i> Dummy</Link></li>
+    <li> <Link to="/employeelist"> EmployeeList</Link></li>
+
 
 
 

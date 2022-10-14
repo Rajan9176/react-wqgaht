@@ -12,6 +12,7 @@ import Timer from './pages/timer';
 import ErrorPage from './pages/errorpage';
 import EmployeeDetails from './pages/employeedetails';
 import SimpleClass from './pages/simpleClass';
+import EmployeeList from './pages/employeelist';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 export default function App() {
@@ -30,6 +31,10 @@ export default function App() {
         <Route path="employeedetails" element={<EmployeeDetails />} />
         <Route path="simpleclass" element={<SimpleClass />} />
         <Route path="timer" element={<Timer />} />
+        <Route path="employeelist" element={<EmployeeList />} />
+
+
+
       </Routes>
       {/* <Login />
       <Signup /> */}
