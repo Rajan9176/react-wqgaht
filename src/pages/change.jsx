@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 import '../css/change.css';
 class Change extends Component {
-
-
- }
-  
+  age = [25];
+  ChangeAge() {
+    // alert('hii');
+    // if (this.age === 25) {
+    //   this.setState({ age: (this.age = 45) });
+    // } else
+    //   () => {
+    //     this.setState({ age: (this.age = 25) });
+    //   };
+  }
 
   render() {
     return (
       <div className="change">
-        <button onChange={() => this.state.age}>Change</button>
+        <button onClick={() => this.ChangeAge()}>Change</button>
         <tr>
           <th className="name">Name</th>
           <th className="name">Age</th>
@@ -22,4 +28,5 @@ class Change extends Component {
     );
   }
 }
+
 export default Change;
