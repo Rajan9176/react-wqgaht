@@ -18,6 +18,8 @@ function Navbar() {
     <li> <Link to="/dummy"><i class="fa-solid fa-circle-xmark"></i> Dummy</Link></li>
     <li> <Link to="/employeelist"> EmployeeList</Link></li>
     <li> <Link to="/change"> Change</Link></li>
+    <li> <Link to="/useeffect"> UseEffect</Link></li>
+
 
 
 
