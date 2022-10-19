@@ -1,0 +1,16 @@
+.counter {
+  border: 1px solid darkgoldenrod;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  background-color: darkgoldenrod;
+  margin: auto;
+  margin-top: 200px;
+}
+.set {
+  padding: 10px;
+}
+.seet {
+  padding-top: 20px;
+}

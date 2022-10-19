@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/counter.css';
 import { useState } from 'react';
 function Counter() {
   let test = 1;
@@ -8,12 +9,12 @@ function Counter() {
   };
   const [count, setCount] = useState(0);
   return (
-    <div>
-      <h1>Counter</h1>
+    <div className="counter">
+      <h1 className="seet">Counter</h1>
 
-      <button onClick={() => setCount(count - 1)}> - </button>
-      <label>{count}</label>
-      <button onClick={() => setCount(count + 1)}>+</button>
+      <button className="set" onClick={() => setCount(count - 1)}> - </button>
+     <label>{count}</label>
+  <button className="set" onClick={() => setCount(count + 1)}>+</button>
     </div>
   );
 }
