@@ -74,15 +74,16 @@ function Navbar() {
         </li>
         <li>
           {' '}
-          <Link to="/employeelist"> EmployeeList</Link>
+          <Link to="/employeelist"> <i className="fa-brands fa-instagram"></i> EmployeeList</Link>
         </li>
         <li>
           {' '}
-          <Link to="/change"> Change</Link>
+          <Link to="/change"> <i class="fa-brands fa-twitter"></i> Change
+          </Link>
         </li>
         <li>
           {' '}
-          <Link to="/titlecounter"> TitleCounter</Link>
+          <Link to="/titlecounter"> <i className="fa-solid fa-face-smile"></i> TitleCounter</Link>
         </li>
       </ul>
     </nav>
