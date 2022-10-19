@@ -1,20 +1,17 @@
-.button{
+.button {
   border-radius: 15px;
   margin: 5px;
   padding: 10px;
   text-align: center;
-  font-family:Georgia, 'Times New Roman', Times, serif
-  
-  
-  
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.rajan{
+.rajan {
   border-radius: 15px;
   margin-left: 38%;
   margin-top: 15%;
   border: 2px solid black;
   width: 250px;
   text-align: center;
-  background-color: rgba(0, 255, 255,0.2);
-  font-family:Georgia, 'Times New Roman', Times, serif
+  background-color: rgba(0, 255, 255, 0.2);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
