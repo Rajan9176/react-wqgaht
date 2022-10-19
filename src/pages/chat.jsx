@@ -6,9 +6,9 @@ function Chat() {
     <div>
       <div>
         <h1>Chat Messages</h1>
-        <button onclick={() => setMessage('hi welcome')}>1</button>
+        <button onClick={() => setMessage('hi welcome')}>1</button>
         <lable>{message}</lable>
-        <button onclick={() => setMessage('i am good boy')}>2</button>
+        <button onClick={() => setMessage('i am good boy')}>2</button>
       </div>
     </div>
   );
