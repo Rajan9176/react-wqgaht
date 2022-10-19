@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/change.css';
 class Change extends Component {
-  age = [25];
+  state=[25];
   ChangeAge() {
     // alert('hii');
     // if (this.age === 25) {
@@ -15,7 +15,7 @@ class Change extends Component {
   render() {
     return (
       <div className="change">
-        <button onClick={() => this.ChangeAge()}>Change</button>
+        <button onClick={() => this.state.age()}>Change</button>
         <tr>
           <th className="name">Name</th>
           <th className="name">Age</th>
