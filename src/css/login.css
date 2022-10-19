@@ -2,12 +2,15 @@
   background-color: rgba(240, 128, 128);
 }
 .ram {
+  font-weight: bold;
   text-align: center;
-  background-color: rgba(215, 250, 247, 0.25);
+  background-color: darkslategrey;
   width: 35%;
   margin-left: 35%;
   margin-top: 16%;
   border-radius: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+  
 }
 .input {
   padding-top: 1%;
@@ -15,11 +18,13 @@
   font-weight: bold;
 }
 .raj {
-  color: blueviolet;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color:black;
   padding-bottom: 1%;
   margin-left: 10%;
   margin-bottom: 2%;
   margin: 2px;
-  border-radius: 5px;
-  text-align: center;
+  border-radius: 7px;
 }
