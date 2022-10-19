@@ -15,6 +15,7 @@ import SimpleClass from './pages/simpleClass';
 import EmployeeList from './pages/employeelist';
 import Change from './pages/change';
 import TitleCounter from './pages/titlecounter';
+import TableClass from './pages/tableClass';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 export default function App() {
@@ -36,6 +37,8 @@ export default function App() {
         <Route path="employeelist" element={<EmployeeList />} />
         <Route path="change" element={<Change />} />
         <Route path="titlecounter" element={<TitleCounter />} />
+        <Route path="tableClass" element={<TableClass />} />
+
       </Routes>
       {/* <Login />
       <Signup /> */}

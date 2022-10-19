@@ -1,0 +1,20 @@
+.repeat {
+  background: rgb(233, 181, 83); 
+  
+}
+.row,
+.col {
+  font-weight: bold;
+  border: 1px solid black;
+  width: 900px;
+  height: 40px;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.row:hover{
+background-color:rgb(192, 60, 60);
+}
+.col:hover {
+  background-color: rgb(53, 128, 53);
+}

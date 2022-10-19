@@ -84,6 +84,8 @@ function Navbar() {
         <li>
           {' '}
           <Link to="/titlecounter"> <i className="fa-solid fa-face-smile"></i> TitleCounter</Link>
+          <Link to="/tableClass"> TableClass</Link>
+  
         </li>
       </ul>
     </nav>
