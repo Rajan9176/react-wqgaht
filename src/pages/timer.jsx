@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/timer.css';
 import { useState } from 'react';
 function Timer() 
 {
@@ -8,7 +9,7 @@ function Timer()
 
 
     return (
-        <div>
+        <div className="time">
             <div>
                 <h1>  <i class="fa-solid fa-business-time"></i> Current Time </h1>
                 <label>  {time.toLocaleTimeString()} </label>

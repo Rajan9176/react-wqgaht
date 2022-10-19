@@ -1,0 +1,14 @@
+.time {
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  padding-top: 20px;
+margin: auto;
+color:white;
+margin-top:15%;
+background-color:black;
+font-weight: bold;
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
