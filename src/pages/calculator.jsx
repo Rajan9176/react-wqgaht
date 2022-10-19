@@ -1,6 +1,11 @@
 import React from 'react';
 import '../css/calculator.css';
 function Calculator() {
+  const req = () => {
+    fetch('https://jsonplaceholder.typicode.com/comments')
+      .then((res) => res.json())
+      .then((Data) => console.log(Data));
+  };
   return (
     <div className="rajan">
       <h1>Calculator</h1>

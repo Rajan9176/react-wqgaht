@@ -1,5 +1,5 @@
 import React from 'react';
-import React from './style.css';
+// import React from './style.css';
 import Navbar from './pages/navbar';
 import Signup from './pages/signup';
 import Login from './pages/login';
@@ -16,6 +16,8 @@ import EmployeeList from './pages/employeelist';
 import Change from './pages/change';
 import TitleCounter from './pages/titlecounter';
 import TableClass from './pages/tableClass';
+
+import './style.css';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 export default function App() {
@@ -38,7 +40,6 @@ export default function App() {
         <Route path="change" element={<Change />} />
         <Route path="titlecounter" element={<TitleCounter />} />
         <Route path="tableClass" element={<TableClass />} />
-
       </Routes>
       {/* <Login />
       <Signup /> */}

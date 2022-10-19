@@ -1,6 +1,6 @@
-/* body{
+body{
   background: lightblue url("img_tree.gif") no-repeat fixed center; 
-} */
+}
 /* /* body{
   background-color: darkgrey;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -8,16 +8,15 @@
 
 background-repeat: no-repeat;
 background-size: cover; */
+/* 
+body {
+  background: url('https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 /* body {
   background: url('https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80');
   background-repeat: no-repeat;
   background-size: cover;
 } */
-
-body{
-  
-    background: url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80");
-background-repeat: no-repeat;
-background-size: cover;
-}
