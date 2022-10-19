@@ -4,16 +4,20 @@
   margin-left: 35%;
   margin-top: 10%;
   border: 2px solid black;
-  width: 300px;
+  width: 200px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 20px;
-  background-color: rgba(0, 255, 255, 0.2);
+  background-color:rgb(57, 158, 57)
 }
-.raj {
-  margin-bottom: 100px;
+.micky {
+background-color: black;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .ra {
   font-size: large;
-  border-radius: 5px;
+  border-radius: 8px;
+  color:white;
+  background-color: black;
 }
