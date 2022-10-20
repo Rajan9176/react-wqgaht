@@ -6,7 +6,7 @@ class Change extends Component {
     if (this.state.age === 25) {
       this.setState({ age: 45 });
     } else {
-      this.setState({ age: 25 });
+      this.setState({ age: 25 }); 
     }
   }
 
