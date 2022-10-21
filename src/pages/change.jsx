@@ -13,7 +13,7 @@ class Change extends Component {
   render() {
     return (
       <div className="change">
-        <button onClick={() => this.changeAge()}>Change</button>
+        <button className="clue" onClick={() => this.changeAge()}>Change</button>
         <tr>
           <th className="name">Name</th>
           <th className="name">Age</th>

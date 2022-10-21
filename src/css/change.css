@@ -1,3 +1,30 @@
-.name,.age{
+.name,
+.age {
   border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  
+}
+.change {
+  margin-left: 450px;
+  margin-top: 150px;
+}
+.name:hover {
+  color: rgb(236, 0, 0);
+}
+.age:hover {
+  color: rgb(236, 0, 0);
+}
+.clue {
+  margin-bottom: 10px;
+  height:50px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  margin-left: 170px;
 }
