@@ -3,8 +3,8 @@ import '../css/login.css';
 function Login() {
   function rajan() {
     alert('2');
-    fetch('https://jsonplaceholder.typicode.com/comments', {
-      method: 'POST',
+    fetch('https://jsonplaceholder.typicode.com/posts/1', {
+      method: 'DELETE',
       headers: {
         'Content-Type': 'application/jason',
       },
