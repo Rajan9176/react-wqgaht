@@ -6,7 +6,7 @@ function Login() {
     fetch('https://jsonplaceholder.typicode.com/posts/1', {
       method: 'DELETE',
       headers: {
-        'Content-Type': 'application/jason',
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify({
         userName: 'Rajendran',
@@ -14,7 +14,7 @@ function Login() {
       }),
     })
       .then((res) => res.json())
-      .then((data) => console.log(data)); 
+      .then((data) => console.log(data));
   }
 
   return (

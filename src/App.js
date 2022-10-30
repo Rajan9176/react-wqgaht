@@ -10,7 +10,7 @@ import Calculator from './pages/calculator';
 import Dummy from './pages/dummy';
 import Timer from './pages/timer';
 import ErrorPage from './pages/errorpage';
-import EmployeeDetails from './pages/employeedetails'; 
+import EmployeeDetails from './pages/employeedetails';
 import SimpleClass from './pages/simpleClass';
 import EmployeeList from './pages/employeelist';
 import Change from './pages/change';

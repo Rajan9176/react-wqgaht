@@ -1,6 +1,21 @@
 import React from 'react';
 import '../css/signup.css';
 function Signup() {
+  function micky() {
+    alert('rajan');
+    fetch('https://jsonplaceholder.typicode.com/posts', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        userName: 'kannan',
+        Password: '1234567',
+      }),
+    })
+      .then((res) => res.json())
+      .then((data) => consol.log(data));
+  }
   return (
     <div className="div">
       <h1>Sign Up Now</h1>
@@ -8,7 +23,7 @@ function Signup() {
       <form>
         <label>
           <i className="fa-solid fa-user"></i>{' '}
-          <input type="User Name" className="micky"placeholder="User Name" />
+          <input type="User Name" className="micky" placeholder="User Name" />
           <br />
           <br />
           <i className="fa-solid fa-envelope"></i>{' '}
@@ -22,7 +37,9 @@ function Signup() {
         </label>
         <br />
         <br />
-        <button className="ra">Sign</button>
+        <button className="ra" onClick={() => micky()}>
+          Sign
+        </button>
       </form>
     </div>
   );
