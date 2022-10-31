@@ -17,6 +17,7 @@ import Change from './pages/change';
 import TitleCounter from './pages/titlecounter';
 import TableClass from './pages/tableClass';
 
+
 import './style.css';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
