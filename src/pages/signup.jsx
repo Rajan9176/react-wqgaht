@@ -3,7 +3,7 @@ import '../css/signup.css';
 function Signup() {
   function micky() {
     alert('rajan');
-    fetch('https://jsonplaceholder.typicode.com/posts', {
+    fetch('https://jsonplaceholder.typicode.com/posts/1', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
