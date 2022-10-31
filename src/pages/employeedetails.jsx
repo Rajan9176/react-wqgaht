@@ -1,26 +1,27 @@
 import React from 'react';
 import '../css/employeedetails.css';
-// import image from './bus.jpg';
-function EmployeeDetails() {
+function employeeDetails() {
   return (
-    <div className="employee1">
-      <h1>Employee Id</h1>
-      {/* <img src="bus.jpg" /> */}
-      {/* <img src={image} /> */}
-      <br />
-      <span className="span">Rajan</span>
-      <br />
-      <br />
-      <span>200</span>
-      <button className="emp">view</button>
+    <div>
+      <div className="employee1">
+        <h1>Employee Id</h1>
+        <img src="bus.jpg" />
+        <br />
+        <span className="span">Rajan</span>
+        <br />
+        <br />
+        <span>200</span>
+
+        <button className="emp">view</button>
+      </div>
 
       <table className="align">
         <tr className="tr">
-          <td>NAME</td>
+          <td className="td">NAME</td>
           <td>Rajan</td>
         </tr>
         <tr>
-          <td className="td">AGE</td>
+          <td>AGE</td>
           <td>20</td>
         </tr>
         <tr>
@@ -47,4 +48,4 @@ function EmployeeDetails() {
     </div>
   );
 }
-export default EmployeeDetails;
+export default employeeDetails;

@@ -1,4 +1,6 @@
 .employee1 {
+  margin-top: 100px;
+  margin-left: 150px;
   display: inline-block;
   border-radius: 10px;
   border: 2px solid black;
@@ -8,13 +10,29 @@
   font-family: Georgia, 'Times New Roman', Times;
 }
 
-.employee2 {
+.span {
   margin-left: -110px;
   font-weight: bold;
 }
 
-.idcard {
+.emp {
   text-align: end;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+.align {
+  margin-left: 470px;
+  margin-top: -160px;
+  width: 700px;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  width: 300px;
+  height: 20px;
 }
