@@ -7,7 +7,7 @@ class Header extends Component {
     this.state = { favoritecolor: 'red' };
   }
   static getDerivedStateFromProps(props, state) {
-    alert('gedDerivedstateFromProps');
+    alert('static');
     console.log(props);
     console.log(state);
     return { favoritecolor: props.favcol };

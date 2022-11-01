@@ -16,7 +16,7 @@ import EmployeeList from './pages/employeelist';
 import Change from './pages/change';
 import TitleCounter from './pages/titlecounter';
 import TableClass from './pages/tableClass';
-import Header from './pages/header';
+import Header from './pages/header'; 
 
 import './style.css';
 
