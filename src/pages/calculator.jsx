@@ -15,7 +15,7 @@ function Calculator() {
       <h1>Calculator</h1>
       <input type="text" />
       <br />
-      <button className="button" onClick={() => alert(7)}>
+      <button className="button" onClick={() => req()}>
         7
       </button>
       <button className="button" onClick={() => alert(8)}>
