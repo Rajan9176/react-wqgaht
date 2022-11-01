@@ -94,6 +94,7 @@ function Navbar() {
           </Link>
           <Link to="/tableClass"> TableClass</Link>
           <Link to="/header"> Header</Link>
+          <Link to="/LabourList"> LabourList</Link>
         </li>
       </ul>
     </nav>

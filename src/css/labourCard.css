@@ -1,0 +1,9 @@
+.labourcard {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  background-color:orange;
+  text-align: center;
+  border-radius: 10px;
+  color:white;
+}

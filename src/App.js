@@ -16,7 +16,8 @@ import EmployeeList from './pages/employeelist';
 import Change from './pages/change';
 import TitleCounter from './pages/titlecounter';
 import TableClass from './pages/tableClass';
-import Header from './pages/header'; 
+import Header from './pages/header';
+import LabourList from './pages/labourList';
 
 import './style.css';
 
@@ -41,8 +42,8 @@ export default function App() {
         <Route path="change" element={<Change />} />
         <Route path="titlecounter" element={<TitleCounter />} />
         <Route path="tableClass" element={<TableClass />} />
-        <Route path="header" element={<Header/>} />
-
+        <Route path="header" element={<Header />} />
+        <Route path="labourList" element={<LabourList />} />
       </Routes>
       {/* <Login />
       <Signup /> */}

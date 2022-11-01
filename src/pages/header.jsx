@@ -8,7 +8,7 @@ class Header extends Component {
     // alert('rajan');
   }
   static getDerivedStateFromProps(props, state) {
-    alert('static');
+    alert('static'); 
     console.log(props);
     console.log(state);
     return { favoritecolor: props.favcol };
