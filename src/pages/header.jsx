@@ -4,7 +4,8 @@ class Header extends Component {
   constructor(props) {
     alert('constructor');
     super(props);
-    this.state = { favoritecolor: 'red' };
+    this.state = { favoritecolor: 'yellow' };
+    // alert('rajan');
   }
   static getDerivedStateFromProps(props, state) {
     alert('static');

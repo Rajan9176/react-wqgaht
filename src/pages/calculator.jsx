@@ -7,7 +7,7 @@ function Calculator() {
       .then((Data) => console.log(Data));
 
     function alert() {
-      alert();
+      // alert();
     }
   };
   return (
