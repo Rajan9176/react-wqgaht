@@ -10,9 +10,9 @@ function Labourcard(props) {
         width="200"
         hight="200"
       />
-      <p>{props.name}</p>
-      <p>{props.id}</p>
-      <button>View</button>
+      <p className="para">{props.name}</p>
+      <p className="para">{props.id}</p>
+      <button className="force">View</button>
     </div>
   );
 }

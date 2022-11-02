@@ -2,8 +2,21 @@
   display: inline-block;
   margin: 10px;
   padding: 5px;
-  background-color:orange;
+  background-color: firebrick;
   text-align: center;
   border-radius: 10px;
-  color:white;
+  color: black;
+}
+.force {
+  border-radius: 10px;
+  border-color: white;
+}
+.force:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.para {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
 }
