@@ -2,7 +2,7 @@
   display: inline-block;
   margin: 10px;
   padding: 5px;
-  background-color: firebrick;
+  background-color:lime;
   text-align: center;
   border-radius: 10px;
   color: black;
@@ -10,6 +10,9 @@
 .force {
   border-radius: 10px;
   border-color: white;
+  border: none;
+  padding: 5px;
+  margin: 10px;
 }
 .force:hover {
   background-color: black;
@@ -19,4 +22,7 @@
 .para {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
+}
+.labourcard p {
+  margin: 0px;
 }
