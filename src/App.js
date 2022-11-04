@@ -19,6 +19,9 @@ import TableClass from './pages/tableClass';
 import Header from './pages/header';
 import LabourList from './pages/labourList';
 import ButtonAnimation from './pages/buttonanimation';
+import Comments from './pages/comments';
+
+
 
 import './style.css';
 
@@ -46,6 +49,7 @@ export default function App() {
         <Route path="header" element={<Header />} />
         <Route path="labourList" element={<LabourList />} />
         <Route path="buttonanimation" element={<ButtonAnimation />} />
+        <Route path="comments" element={<Comments />} />
       </Routes>
       {/* <Login />
       <Signup /> */}

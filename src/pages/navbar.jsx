@@ -101,6 +101,7 @@ function Navbar() {
           </Link>
         </li>
       </ul>
+      <Link to="/comments"> Comments</Link>
     </nav>
   );
 }
