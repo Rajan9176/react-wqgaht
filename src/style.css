@@ -1,5 +1,6 @@
-body{
-  background: lightblue url("img_tree.gif") no-repeat fixed center; 
+body {
+  /* background: lightblue url("img_tree.gif") no-repeat fixed center;  */
+  background-color: black;
 }
 /* /* body{
   background-color: darkgrey;

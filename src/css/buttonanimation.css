@@ -1,0 +1,51 @@
+.buttonss {
+  text-align: center;
+  margin-top: 20%;
+  /* border-color: black; */
+}
+.button1 {
+  padding: 20px;
+  margin-right: 2%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+.button2 {
+  padding: 20px;
+  margin-right: 2%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+.button3 {
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: bold;
+  margin-right: 2%;
+}
+.button4 {
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+.button1:hover {
+  border: none;
+  box-shadow: inset -140px 0px 0px 0px red, inset 140px 0px 0px 0px red;
+  transition: 0.4s ease-in;
+}
+.button2:hover {
+  background-color: yellow;
+  box-shadow: 0px 0px 5px yellow, 0px 0px 25px yellow, 0px 0px 50px yellow;
+  border: none;
+}
+.button3:hover {
+  box-shadow: 10px 10px 0px red;
+}
+
+.button4:hover {
+  box-shadow: inset 2px 2px 2px red, inset -2px -2px 2px red;
+  background-color: black;
+  color: red;
+}

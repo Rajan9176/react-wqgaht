@@ -95,6 +95,10 @@ function Navbar() {
           <Link to="/tableClass"> TableClass</Link>
           <Link to="/header"> Header</Link>
           <Link to="/LabourList"> LabourList</Link>
+          <Link to="/Buttonanimation">
+            {' '}
+            <i class="fa-solid fa-play"></i> Buttonanimation
+          </Link>
         </li>
       </ul>
     </nav>

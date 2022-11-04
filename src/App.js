@@ -18,6 +18,7 @@ import TitleCounter from './pages/titlecounter';
 import TableClass from './pages/tableClass';
 import Header from './pages/header';
 import LabourList from './pages/labourList';
+import ButtonAnimation from './pages/buttonanimation';
 
 import './style.css';
 
@@ -44,6 +45,7 @@ export default function App() {
         <Route path="tableClass" element={<TableClass />} />
         <Route path="header" element={<Header />} />
         <Route path="labourList" element={<LabourList />} />
+        <Route path="buttonanimation" element={<ButtonAnimation />} />
       </Routes>
       {/* <Login />
       <Signup /> */}
