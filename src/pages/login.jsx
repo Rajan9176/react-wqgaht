@@ -1,8 +1,10 @@
 import React from 'react';
+import Swal from 'sweetalert2';
 import '../css/login.css';
 function Login() {
   function rajan() {
-    alert('2');
+    // alert('2');
+    Swal.fire('rajan');
     fetch('https://jsonplaceholder.typicode.com/posts/1', {
       method: 'DELETE',
       headers: {
