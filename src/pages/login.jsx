@@ -8,10 +8,6 @@ function Login() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({
-        userName: 'Rajendran',
-        Password: '9176160543',
-      }),
     })
       .then((res) => res.json())
       .then((data) => console.log(data));
