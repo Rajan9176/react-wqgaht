@@ -20,7 +20,6 @@ function Table(props) {
   };
   return (
     <div>
-      {' '}
       {props.data.length}
       <table>
         <thead>
