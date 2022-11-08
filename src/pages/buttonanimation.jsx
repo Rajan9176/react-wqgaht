@@ -1,7 +1,7 @@
 import React from 'react';
-import Swal from 'sweetalert2';
-
 import '../css/buttonanimation.css';
+
+import Swal from 'sweetalert2';
 
 function Buttonanimation() {
   Swal.fire('rajan');
