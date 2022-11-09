@@ -2,10 +2,16 @@ import React from 'react';
 import '../css/chat.css';
 import { useState } from 'react';
 import Labourcard from './component/labourcard';
+import { useSelector } from 'react-redux';
 function Chat() {
   const [message, setMessage] = useState('0');
+  const count = useSelector((state) => state.counter.value);
   return (
     <div className="message">
+      <p>
+        count value is
+        {count}
+      </p>
       <h1 className="hh">
         <i class="fa-sharp fa-solid fa-comment"></i> Chat Messages
       </h1>

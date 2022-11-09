@@ -82,6 +82,7 @@ function Navbar() {
             <i class="fa-solid fa-play"></i> Buttonanimation
           </Link>
           <Link to="/comments"> Comments</Link>
+          <Link to="/counter2"> Counter2</Link>
         </li>
       </ul>
     </nav>
