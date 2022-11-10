@@ -68,7 +68,7 @@ function Navbar() {
         </li>
         <li>
           <Link to="/change">
-            <i class="fa-brands fa-twitter"></i> Change
+            <i className="fa-brands fa-twitter"></i> Change
           </Link>
         </li>
         <li>

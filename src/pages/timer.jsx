@@ -11,7 +11,7 @@ function Timer()
     return (
         <div className="time">
             <div>
-                <h1>  <i class="fa-solid fa-business-time"></i> Current Time </h1>
+                <h1>  <i className="fa-solid fa-business-time"></i> Current Time </h1>
                 <label>  {time.toLocaleTimeString()} </label>
 
             </div>
