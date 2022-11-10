@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { decrement, increment } from '../store/reducers/counter.reducer';
 function counter2() {
   // alert('warning');/
