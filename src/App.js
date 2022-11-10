@@ -21,9 +21,7 @@ import LabourList from './pages/labourList';
 import ButtonAnimation from './pages/buttonanimation';
 import Comments from './pages/comments';
 import Counter2 from './pages/counter2';
-
-
-
+import Calculator2 from './pages/calculator2';
 
 import './style.css';
 
@@ -53,7 +51,7 @@ export default function App() {
         <Route path="buttonanimation" element={<ButtonAnimation />} />
         <Route path="comments" element={<Comments />} />
         <Route path="counter2" element={<Counter2 />} />
-
+        <Route path="calculator2" element={<Calculator2 />} />
       </Routes>
       {/* <Login />
       <Signup /> */}

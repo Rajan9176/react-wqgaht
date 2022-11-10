@@ -83,6 +83,7 @@ function Navbar() {
           </Link>
           <Link to="/comments"> Comments</Link>
           <Link to="/counter2"> Counter2</Link>
+          <Link to="/calculator2">Calculator2</Link>
         </li>
       </ul>
     </nav>
