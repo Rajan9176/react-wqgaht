@@ -1,5 +1,8 @@
+import { useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 import React from 'react';
 import Labourcard from './component/labourcard';
+import { changeLabour } from '../store/reducers/labour.reducer';
 const employeeArray = [
   {
     Name: 'Aurora',
@@ -1404,9 +1407,21 @@ const employeeArray = [
 ];
 
 function LabourList() {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const view = (data) => {
+    dispatch(changeLabour(data));
+    navigate('/labourdetails');
+  };
   const genarateList = () => {
     return employeeArray.map((each) => {
-      return <Labourcard name={each.Name} id={each.EmployeeID} />;
+      return (
+        <Labourcard
+          name={each.Name}
+          id={each.EmployeeID}
+          view={() => view(each)}
+        />
+      );
     });
   };
 

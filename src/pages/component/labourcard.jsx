@@ -12,7 +12,9 @@ function Labourcard(props) {
       />
       <p className="para">{props.name}</p>
       <p className="para">{props.id}</p>
-      <button className="force">View</button>
+      <button className="force" onClick={props.view}>
+        View
+      </button>
     </div>
   );
 }

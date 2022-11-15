@@ -22,6 +22,8 @@ import ButtonAnimation from './pages/buttonanimation';
 import Comments from './pages/comments';
 import Counter2 from './pages/counter2';
 import Calculator2 from './pages/calculator2';
+import Calculator2 from './pages/calculator2';
+import LabourDetails from './pages/labourdetails';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 export default function App() {
@@ -50,6 +52,7 @@ export default function App() {
         <Route path="comments" element={<Comments />} />
         <Route path="counter2" element={<Counter2 />} />
         <Route path="calculator2" element={<Calculator2 />} />
+        <Route path="labourdetails" element={<LabourDetails />} />
       </Routes>
       {/* <Login />
       <Signup /> */}
