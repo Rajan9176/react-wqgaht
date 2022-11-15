@@ -19,13 +19,13 @@ function Login() {
     <div className="ram">
       <h1 className="mr">Login Page</h1>
       <label htmlfor="username">
-        <i class="fa-solid fa-user"></i>username
+        <i className="fa-solid fa-user"></i>username
       </label>
       <input type="text" className="input" />
       <br />
       <br />
       <label htmlfor="password">
-        <i class="fa-solid fa-lock"></i>password
+        <i className="fa-solid fa-lock"></i>password
       </label>
       <input type="password" className="input" />
       <br />

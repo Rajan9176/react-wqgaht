@@ -4,7 +4,7 @@ class EmployeeList extends Component {
   genarateButtons() {
     return this.buttons.map((each) => {
       // return '<button>' + each + '</button>';
-      return <button>{each}</button>
+      return <button>{each}</button>;
     });
     //   let displayButtons = '';
     //   for (let i = 1; i <= this.buttons.length; i++) {

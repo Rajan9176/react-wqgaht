@@ -1,5 +1,5 @@
 import React from 'react';
-// import React from './style.css';
+import './style.css';
 import Navbar from './pages/navbar';
 import Signup from './pages/signup';
 import Login from './pages/login';
@@ -22,8 +22,6 @@ import ButtonAnimation from './pages/buttonanimation';
 import Comments from './pages/comments';
 import Counter2 from './pages/counter2';
 import Calculator2 from './pages/calculator2';
-
-import './style.css';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 export default function App() {
