@@ -1,6 +1,5 @@
-import '../css/table.css';
-
 import React, { useEffect } from 'react';
+import '../css/tables.css';
 
 function Table(props) {
   const [page, setPage] = React.useState(2);
