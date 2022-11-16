@@ -1,4 +1,7 @@
+import '../css/table.css';
+
 import React, { useEffect } from 'react';
+
 function Table(props) {
   const [page, setPage] = React.useState(2);
   const [pageLimit, setPageLimite] = React.useState(10);
@@ -54,7 +57,9 @@ function Table(props) {
         <button onClick={() => setPage(4)}>4</button>
         <button onClick={() => setPage(5)}>5</button>
         <button onClick={() => setPage(6)}>6</button> */}
-        <button onClick={() => setPage(page + 1)}>&gt;</button>
+        <button className="page" onClick={() => setPage(page + 1)}>
+          &gt;
+        </button>
         <button onClick={() => setPage(lastPage)}>&gt;&gt;</button>
       </div>
       {props.data.length}
