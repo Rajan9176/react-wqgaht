@@ -1,7 +1,13 @@
+import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import '../css/labourdetails.css';
 import React from 'react';
+
 function LabourDetails() {
+  const navigate = useNavigate();
+  const back = () => {
+    navigate('/labourList');
+  };
   const labour = useSelector((state) => state.labour.value);
   return (
     <div className="table">
@@ -12,10 +18,13 @@ function LabourDetails() {
           width="200"
           hight="200"
         />
+
         <div className="emp">
           <p>{labour.Name}</p>
           <p>{labour.EmployeeID}</p>
-          <button className="lock">back</button>
+          <button className="lock" onClick={() => back()}>
+            back
+          </button>
         </div>
       </div>
       <table className="info">
@@ -33,11 +42,11 @@ function LabourDetails() {
         </tr>
         <tr className="tr">
           <td>DATE OF JOINING</td>
-          <td>{}</td>
+          <td>{labour['Date of joining']}</td>
         </tr>
         <tr className="tr">
           <td>PHONE NUMBER</td>
-          <td>{}</td>
+          <td>{labour['Phone number']}</td>
         </tr>
         <tr className="tr">
           <td>STREET</td>
@@ -67,12 +76,5 @@ function LabourDetails() {
     </div>
   );
 }
-function labour() {
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
-  const back = (data) => {
-    dispatch(changeLabour(data));
-    navigate('/labourList');
-  };
-}
+
 export default LabourDetails;

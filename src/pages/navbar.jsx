@@ -85,6 +85,7 @@ function Navbar() {
           <Link to="/counter2"> Counter2</Link>
           <Link to="/calculator2">Calculator2</Link>
           <Link to="/labourdetails">LabourDetails</Link>
+          <Link to="/post">Post</Link>
         </li>
       </ul>
     </nav>
