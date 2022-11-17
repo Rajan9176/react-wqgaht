@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import '../css/tables.css';
-
+import React from 'react';
+// import '../css/Table.css';
 function Table(props) {
   const [page, setPage] = React.useState(2);
   const [pageLimit, setPageLimite] = React.useState(10);

@@ -27,9 +27,8 @@
 }
 .info {
   margin-left: 35%;
-  margin-top: -20%;
-}
-.info:hover {
+  margin-top: -23%;
+  /* width:700px; */
 }
 .tr:hover {
   color: white;
