@@ -20,7 +20,7 @@ function ErrorPage() {
     <div className="errorPage">
       <h1 className="oops">Oops!</h1>
       <h2>
-        <p className="para1">404-PAGE NOT FOUND </p>
+        <p className="para1"><i class="fa-solid fa-triangle-exclamation"></i> 404-PAGE NOT FOUND </p>
       </h2>
       <h3>
         <p className="paras">

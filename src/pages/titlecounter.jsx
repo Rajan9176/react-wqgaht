@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import '../css/titlecounter.css';
 function TitleCounter() {
   const [count, setCount] = useState(0);
 
@@ -10,8 +10,8 @@ function TitleCounter() {
   });
 
   return (
-    <div>
-      <p>You clicked {count} times</p>
+    <div className="titlecounter">
+      <p> You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>
         Click me
       </button>

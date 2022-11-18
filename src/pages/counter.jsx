@@ -10,11 +10,11 @@ function Counter() {
   const [count, setCount] = useState(0);
   return (
     <div className="counter">
-      <h1 className="seet">Counter</h1>
+      <h1 className="seet"><i class="fa-solid fa-globe"></i> Counter</h1>
 
-      <button className="set" onClick={() => setCount(count - 1)}> - </button>
+      <button className="set" onClick={() => setCount(count - 1)}> <i class="fa-solid fa-minus"></i> </button>
      <label>{count}</label>
-  <button className="set" onClick={() => setCount(count + 1)}>+</button>
+  <button className="set" onClick={() => setCount(count + 1)}><i class="fa-solid fa-plus"></i></button>
     </div>
   );
 }

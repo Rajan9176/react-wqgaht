@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import '../css/counter.css';
+
 class SimpleClass extends Component {
   state={
     count:1
@@ -15,10 +17,11 @@ class SimpleClass extends Component {
   }
   render() {
     return (
-      <div>
-        <button onClick={()=>this.increment()}>+</button>
+      <div className="counter">
+        <h1 className="seet"><i class="fa-solid fa-globe"></i> SimpleClass</h1>
+        <button className="set"onClick={()=>this.increment()}>+</button>
         <button>{this.state.count}</button>
-        <button onClick={()=>this.decrement()}>-</button>
+        <button className="set" onClick={()=>this.decrement()}>-</button>
       </div>
     );
   }

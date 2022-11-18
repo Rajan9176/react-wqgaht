@@ -75,17 +75,33 @@ function Navbar() {
           <Link to="/titlecounter">
             <i className="fa-solid fa-face-smile"></i> TitleCounter
           </Link>
-          <Link to="/tableClass"> TableClass</Link>
-          <Link to="/header"> Header</Link>
-          <Link to="/LabourList"> LabourList</Link>
+          <Link to="/tableClass">
+            <i class="fa-brands fa-facebook"></i> TableClass
+          </Link>
+          <Link to="/header">
+            <i class="fa-brands fa-youtube"></i> Header
+          </Link>
+          <Link to="/LabourList">
+            <i class="fa-brands fa-telegram"></i> LabourList
+          </Link>
           <Link to="/Buttonanimation">
             <i class="fa-solid fa-play"></i> Buttonanimation
           </Link>
-          <Link to="/comments"> Comments</Link>
-          <Link to="/counter2"> Counter2</Link>
-          <Link to="/calculator2">Calculator2</Link>
-          <Link to="/labourdetails">LabourDetails</Link>
-          <Link to="/post">Post</Link>
+          <Link to="/comments">
+            <i class="fa-brands fa-snapchat"></i> Comments
+          </Link>
+          <Link to="/counter2">
+            <i class="fa-brands fa-tiktok"></i> Counter2
+          </Link>
+          <Link to="/calculator2">
+            <i class="fa-solid fa-paperclip"></i> Calculator2
+          </Link>
+          <Link to="/labourdetails">
+            <i class="fa-brands fa-google"></i> LabourDetails
+          </Link>
+          <Link to="/post">
+            <i class="fa-solid fa-wifi"></i> Post
+          </Link>
         </li>
       </ul>
     </nav>

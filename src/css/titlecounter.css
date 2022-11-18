@@ -1,0 +1,9 @@
+.titlecounter {
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  background-color: beige;
+  margin-left: 40%;
+  margin-top: 18%;
+}
