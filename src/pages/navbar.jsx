@@ -75,33 +75,64 @@ function Navbar() {
           <Link to="/titlecounter">
             <i className="fa-solid fa-face-smile"></i> TitleCounter
           </Link>
+        </li>
+        <li>
           <Link to="/tableClass">
-            <i class="fa-brands fa-facebook"></i> TableClass
+            <i className="fa-brands fa-facebook"></i> TableClass
           </Link>
+        </li>
+        <li>
           <Link to="/header">
-            <i class="fa-brands fa-youtube"></i> Header
+            <i className="fa-brands fa-youtube"></i> Header
           </Link>
+        </li>
+
+        <li>
+          {' '}
           <Link to="/LabourList">
-            <i class="fa-brands fa-telegram"></i> LabourList
+            <i className="fa-brands fa-telegram"></i> LabourList
           </Link>
+        </li>
+        <li>
+          {' '}
           <Link to="/Buttonanimation">
-            <i class="fa-solid fa-play"></i> Buttonanimation
+            <i className="fa-solid fa-play"></i> Buttonanimation
           </Link>
+        </li>
+
+        <li>
+          {' '}
           <Link to="/comments">
-            <i class="fa-brands fa-snapchat"></i> Comments
+            <i className="fa-brands fa-snapchat"></i> Comments
           </Link>
+        </li>
+
+        <li>
+          {' '}
           <Link to="/counter2">
-            <i class="fa-brands fa-tiktok"></i> Counter2
+            <i className="fa-brands fa-tiktok"></i> Counter2
           </Link>
+        </li>
+
+        <li>
           <Link to="/calculator2">
-            <i class="fa-solid fa-paperclip"></i> Calculator2
+            <i className="fa-solid fa-paperclip"></i> Calculator2
           </Link>
+        </li>
+
+        <li>
           <Link to="/labourdetails">
-            <i class="fa-brands fa-google"></i> LabourDetails
+            <i className="fa-brands fa-google"></i> LabourDetails
           </Link>
+        </li>
+
+        <li>
           <Link to="/post">
-            <i class="fa-solid fa-wifi"></i> Post
+            <i className="fa-solid fa-wifi"></i> Post
           </Link>
+        </li>
+        <li>
+          <Link to="/webpage">WebPage</Link>
         </li>
       </ul>
     </nav>

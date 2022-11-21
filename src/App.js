@@ -25,6 +25,7 @@ import Calculator2 from './pages/calculator2';
 import Calculator2 from './pages/calculator2';
 import LabourDetails from './pages/labourdetails';
 import Post from './pages/post';
+import WebPage from './pages/webpage';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 export default function App() {
@@ -55,6 +56,7 @@ export default function App() {
         <Route path="calculator2" element={<Calculator2 />} />
         <Route path="labourdetails" element={<LabourDetails />} />
         <Route path="post" element={<Post />} />
+        <Route path="webpage" element={<WebPage />}/>
       </Routes>
       {/* <Login />
       <Signup /> */}
