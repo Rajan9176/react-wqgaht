@@ -6,7 +6,10 @@ function Webpage() {
       <div id="topbar"></div>
       <div id="contaniner">
         <div id="header">
-          <img src="company.jpg" alt="compan" />
+          <img
+            src="file:///C:/Users/ELCOT/Desktop/web%20page/company.jpg"
+            alt="compan"
+          />
           <ul>
             <li>
               {' '}
